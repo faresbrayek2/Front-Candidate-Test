@@ -1,0 +1,17 @@
+<!--
+This HTML file represents the template for the DocumentDisplayComponent.
+It displays the document content and its associated labels.
+-->
+
+<div class="document-display">
+  <div class="labels">
+    <span
+      *ngFor="let label of labels"
+      class="label"
+      [style.background-color]="labelColors.get(label)"
+      >{{ label }}</span
+    >
+  </div>
+
+  <span [innerHTML]="documentC"></span>
+</div>

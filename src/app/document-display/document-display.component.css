@@ -1,0 +1,11 @@
+.label {
+  border-radius: 4px;
+  color: black;
+  padding: 4px 8px;
+}
+.document-display {
+  margin-top: 20px;
+}
+.labels {
+  margin-bottom: 20px;
+}
