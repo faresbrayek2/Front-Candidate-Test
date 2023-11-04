@@ -1,0 +1,39 @@
+#highlight-text {
+  border: 1px solid #ccc;
+  min-height: 200px;
+  padding: 10px;
+}
+
+#color-picker {
+  margin-top: 10px;
+}
+
+#labels {
+  margin-top: 20px;
+}
+
+#labels ul {
+  list-style: none;
+  padding: 0;
+}
+
+#labels li {
+  margin-bottom: 10px;
+}
+
+#labels button {
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#labels button:hover {
+  opacity: 0.8;
+}
+
+#export-button {
+  margin-top: 20px;
+}

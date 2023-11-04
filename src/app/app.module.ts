@@ -9,6 +9,11 @@ import { FormsModule } from '@angular/forms';
 import { DocumentDisplayComponent } from './document-display/document-display.component';
 import { ImportComponent } from './import/import.component';
 import { CommonModule } from '@angular/common';
+import { DocumentAnnotationComponent } from './document-annotation/document-annotation.component';
+import { ButtonModule } from 'primeng/button';
+import { InputTextModule } from 'primeng/inputtext';
+import { TableModule } from 'primeng/table';
+import { TextHighlightComponent } from './text-highlight/text-highlight.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +21,8 @@ import { CommonModule } from '@angular/common';
     LabelInputComponent,
     DocumentDisplayComponent,
     ImportComponent,
+    DocumentAnnotationComponent,
+    TextHighlightComponent,
   ],
   imports: [
     HttpClientModule, // Add HttpClientModule to your imports
@@ -23,6 +30,9 @@ import { CommonModule } from '@angular/common';
     BrowserModule,
     CommonModule,
     AppRoutingModule,
+    ButtonModule,
+    InputTextModule,
+    TableModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

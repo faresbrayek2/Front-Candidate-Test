@@ -1,0 +1,22 @@
+<div
+  contenteditable="true"
+  id="highlight-text"
+  (mouseup)="onMouseUp($event)"
+></div>
+
+<div id="labels">
+  <h2>Labels</h2>
+  <ul>
+    <li *ngFor="let label of labels">
+      <button
+        (click)="onColorChange(label.color)"
+        [style.background-color]="label.color"
+      >
+        {{ label.name }}
+      </button>
+    </li>
+  </ul>
+</div>
+<div id="export-button">
+  <button (click)="exportAnnotations()">Export</button>
+</div>
